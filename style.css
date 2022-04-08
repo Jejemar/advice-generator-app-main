@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Outfit:wght@300&display=swap');
+
+
+:root{
+
+
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+
+}
+
+
+
+body{
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--Dark-Blue);
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 223px auto;
+    
+}
+
+
+
+
+.main-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height:332px;
+    background-color: var(--Dark-Grayish-Blue);
+    border-radius: 15px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+
+
+
+}
+
+.card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark-Grayish-Blue);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    
+
+}
+
+h1{
+
+    color:var(--Neon-Green);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 17px;
+    letter-spacing: 0.4em;
+    
+
+}
+
+
+p{
+    
+    text-align: center;
+    color:var(--Light-Cyan);
+    font-size: 28px;
+    margin: 5px 40px;
+    
+
+
+}
+
+.divider-bottom{   
+
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+
+}
+
+.divider-bottom > img{   
+
+
+    /* display: flex; */
+    width: 444px;
+    height: 16px;
+    /* flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 25px; */
+
+
+}
+
+.hover-button {
+
+    display: flex;
+    position: absolute;
+    background-color: var(--Neon-Green);
+    border-radius: 100%;
+    width: 64px;
+    height: 65px;
+    top: 522px;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-button:hover{
+
+    position: absolute;
+    background-color: var(--Neon-Green);
+    border-radius: 100%;
+    width: 64px;
+    height: 65px;
+    top: 522px;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px 10px hsl(150deg 100% 66% / 47%)
+
+
+
+}
